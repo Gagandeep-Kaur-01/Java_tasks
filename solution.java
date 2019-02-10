@@ -1,4 +1,5 @@
 import java.util.Scanner;
+//import java.util.Scanner.nextInt;
 // https://www.hackerrank.com/challenges/repeated-string/problem
 public class solution {
 
@@ -12,8 +13,15 @@ if (s.charAt(i) == 'a')
 	
 count++;
 }
-System.out.println(count);
 
+
+int n = inp.nextInt();
+int count1 = 0;
+for(int j=0; j<(n% s.length()); j++) {
+if (s.charAt(j)== 'a')
+count1++;	
+}
+System.out.println(count);
 
 
 }
