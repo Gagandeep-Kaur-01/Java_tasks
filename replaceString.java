@@ -20,7 +20,9 @@ String st = "HTML|CSS|BOOTSTRAP";
 st = st.replace('|', ',');
 System.out.println(st);
 
-
+StringBuffer sb = new StringBuffer("GaganpreeKaur");
+sb.replace(5, 9, "deep");
+System.out.println(sb);
 
 // replaceAll() method
 Scanner sc = new Scanner(System.in);
@@ -42,7 +44,7 @@ sc.close();
 
 // replaceFirst() method
         String str = "My Name is Gagandeep Kaur";
-		str = str.replaceFirst("(?i)"+"Gagan", "Raman");
+		str = str.replaceFirst("(?i)"+"Gagan", "\\s*");
 		System.out.println(str);
 }
 }
