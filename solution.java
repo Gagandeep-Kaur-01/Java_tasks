@@ -14,14 +14,16 @@ if (s.charAt(i) == 'a')
 count++;
 }
 
-
-int n = inp.nextInt();
 int count1 = 0;
-for(int j=0; j<(n% s.length()); j++) {
-if (s.charAt(j)== 'a')
+int n = inp.nextInt();
+
+//for(int j=0; j<(n% s.length()); j++) {
+//if (s.charAt(j)== 'a')
 count1++;	
-}
-System.out.println(count);
+//}
+int count2;
+count2 = count*(n/s.length())+ count1;
+System.out.println(count2);
 
 
 }
