@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.*;
 
 public class diagnolDiff {
 
@@ -47,7 +48,7 @@ System.out.println("Sum of elements of left-right diagnol is :" +d1);
 System.out.println("Sum of elements of right-left diagnol is :" +d2); 
 
 diff = d1-d2;
-System.out.println("Difference of sum between two diagonals are:" +diff );
+System.out.println("Difference of sum between two diagonals are:" + Math.abs(diff ));
 
 
 }
