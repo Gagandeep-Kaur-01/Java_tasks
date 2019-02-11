@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class diagnolDiff {
 
 public static void main(String args[]) {
-int r, c, i, j, d1=0, d2=0;
+int r, c, i, j, d1=0, d2=0, diff=0;
 Scanner in = new Scanner(System.in);
 System.out.println("Enter the number of rows and columns:");
 r = in.nextInt();
@@ -46,7 +46,9 @@ for(i=0;i<r;i++)
 System.out.println("Sum of elements of left-right diagnol is :" +d1);
 System.out.println("Sum of elements of right-left diagnol is :" +d2); 
 
-	
+diff = d1-d2;
+System.out.println("Difference of sum between two diagonals are:" +diff );
+
 
 }
 } 
