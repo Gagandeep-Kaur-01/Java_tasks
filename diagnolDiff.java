@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class diagnolDiff {
 
 public static void main(String args[]) {
-int r, c, i, j, d1=0, d2;
+int r, c, i, j, d1=0, d2=0;
 Scanner in = new Scanner(System.in);
 System.out.println("Enter the number of rows and columns:");
 r = in.nextInt();
@@ -33,12 +33,19 @@ for(i=0;i<r;i++)
 		{
 			d1 = d1+matrix[i][j];
 		}
+		
+// to calculate the sum elementscof secondary diagnol
+ if((i+j)== (c-1))
+ {
+ d2 = d2+ matrix[i][j];
+ }	 
+		
 	}
 }
 
-System.out.println("Sum of elements of diagnol is :" +d1);
- 
- //System.out.println();
+System.out.println("Sum of elements of left-right diagnol is :" +d1);
+System.out.println("Sum of elements of right-left diagnol is :" +d2); 
+
 	
 
 }
