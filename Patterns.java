@@ -60,6 +60,25 @@ System.out.printf("*");
 }
 System.out.println();
 }
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+int number = 1;
+System.out.print("Enter integer:");
+int nm = in.nextInt();
+for(int s=1; s<=nm; s++){
+	for(int t=1; t<=s; t++){
+			
+		System.out.print(number+ " ");
+	number = number+1;
+}
+System.out.println();
+}
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+for(int u=5;u>=1; u--){
+for(int v=1;v<=u;v++){
+System.out.print(v);
+}	
+System.out.println();
+}
 }
 }
