@@ -10,7 +10,9 @@ for(a=1; a<=5; a++)
 {
 for(b=1; b<=a; b++)
 {
-System.out.print("#");
+//System.out.print("#");
+//System.out.print(a);
+System.out.print(b);
 }
 System.out.println();
 }  
@@ -22,6 +24,7 @@ for(int i=1; i<=5; i++)
 	for(int j=5; j>=i; j--)
 	{
 		System.out.print("#");
+		
 	}
 	System.out.println();
 }
