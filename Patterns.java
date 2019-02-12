@@ -29,17 +29,34 @@ System.out.println("\n");
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-System.out.print("Enter your name :");
+System.out.print("Enter your name : ");
 String name = in.next();
-int n=10;
-for(int k=1; k<=n; k++){
+//int n=10;
+for(int k=1; k<=5; k++){
 	for(int l=1; l<=k; l++){
 		System.out.print(name);
 	}
 	System.out.println("\n");
 }
-//System.out.println("Your name is: " + name);
+//System.out.println("Your name is: " + name);  
 
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System.out.print("Enter the value of integer : " );
+int num = in.nextInt();
+
+for(int p=1; p<=num; p++) 
+{
+for(int q=num; q>p; q--)
+{
+System.out.printf(" ");
+}	
+for(int r=1; r<=p; r++)
+{
+System.out.printf("*");
+}
+System.out.println();
+}
 
 }
 }
