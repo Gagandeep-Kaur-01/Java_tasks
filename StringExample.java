@@ -21,9 +21,12 @@ System.out.println("Uppercase : " + s2.toUpperCase());
 
 System.out.println("Replacing characters : " + s1.replace("e", "a"));  
 
-char ch[] = s1.toCharArray();
+char ch[] = s1.toCharArray();     // string to char conversion
 for(char output : ch)
 	System.out.println(output);
+
+String s = String.valueOf(ch);      // char to string conversion
+System.out.println("String is : " +s);
 }
 
 
