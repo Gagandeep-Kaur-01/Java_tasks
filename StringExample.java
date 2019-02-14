@@ -20,6 +20,10 @@ System.out.println("Comparision : " +out);
 System.out.println("Uppercase : " + s2.toUpperCase());  
 
 System.out.println("Replacing characters : " + s1.replace("e", "a"));  
+
+char ch[] = s1.toCharArray();
+for(char output : ch)
+	System.out.println(output);
 }
 
 
