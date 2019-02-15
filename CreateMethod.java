@@ -10,6 +10,12 @@ r.area(2,3);
  
 value(2000.5);              // calling another method
  
+int p = 7;
+int q =8;
+System.out.println("Numbers before swapping : p = " +p+ "and q =" +q);
+swap(p,q);
+// System.out.println("Numbers after swapping : p = " +p+ "and q =" +q);       give same values here.
+ 
 }
 
 //creating maxvalue function
@@ -39,13 +45,15 @@ public static void value(double points){
 		System.out.println("Null");
 }
 
-
-
+// another swap method using two variables
+public static void swap(int p, int q) {
+p = p+q;
+q = p-q;
+p = p-q;	
+System.out.println("Numbers after swapping : p = " +p+ "and q =" +q); 
 }
 
-
-
-
+}
 
 
 
