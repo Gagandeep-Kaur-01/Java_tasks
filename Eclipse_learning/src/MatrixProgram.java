@@ -30,6 +30,23 @@ public class MatrixProgram {
 			}
 		}
 	
+				// close the scanner
+				sc.close();
+
+			
+				
+	for (r=0;r<rows;r++) 
+	for(c=0; c<columns;c++)
+		sum[r][c] = first[r][c]+second [r][c];		
+		System.out.println("Sum of the matrices:");
+		for(r=0;r<rows;r++)
+			for(c=0;c<columns;c++)
+				System.out.println(sum[r][c]+"\t");
+		System.out.println();
+}
+
+
+
+	
 		
-}
-}
+	}
