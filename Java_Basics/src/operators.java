@@ -34,6 +34,15 @@ public class operators {
 		System.out.println(-c>>2); 
 		System.out.println(-c>>>2); 
 	    //For negative number, >>> changes parity bit (MSB) to 0  
+	
+	int x = 2;
+	int y = 5;
+	int min = (x<y)?x:y;  // Ternary operator
+	System.out.println(min);
+	x+=4; //x=x+4=2+4=6; // Assignment operator
+	System.out.println(x);
+	y-=4; //=y-4= 5-4=1; // Assignment operator
+	System.out.println(y);
 	}
 	
 	
