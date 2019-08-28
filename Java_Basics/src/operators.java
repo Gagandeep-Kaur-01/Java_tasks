@@ -43,6 +43,30 @@ public class operators {
 	System.out.println(x);
 	y-=4; //=y-4= 5-4=1; // Assignment operator
 	System.out.println(y);
+	
+	
+	int p = 10;
+	int q = 5;
+	int r = 20;
+	System.out.println(p<q&&p<r);   // false && true = false
+	System.out.println(p < q && p++ < r);  // false && true = false
+	
+	System.out.println(p); //  because second condition is not checked ; p=10; 
+	System.out.println(p>q||p<r);//true || true = true  
+	
+	
+	//|| vs |  
+	System.out.println(p>q||p++<r);//true || true = true  
+	System.out.println(p);//10 because second condition is not checked  
+	System.out.println(p>q|p++<r);//true | true = true  
+	System.out.println(p);//11 because second condition is checked 
+	
+	System.out.println("value of p : " +p);
+	System.out.println("value of q : "+q);
+	int ternary = (p<q)?p:q;
+	System.out.println("min is : " +ternary);
+	int ter = (p>q)?p:q;
+	System.out.println("max is : " +ter);
 	}
 	
 	
