@@ -8,6 +8,7 @@ public class loops {
 	do-while loop : Use it, if the no. of iteration is not fixed and you must have to execute the loop at least once.        
 	for-each loop : used to traverse array or collection in java.
 	                There is no need to increment value and use subscript notation.
+	labeled for loop : In order to name of each Java for loop, use label before the loop.
 	*/
 	
 	public static void main(String[]args) {
@@ -30,5 +31,21 @@ public class loops {
 		for(int i:arr) {  //printing an array using for-each loop
 			System.out.println(i);
 		}
+	// ##########################################################
+		System.out.println('\n' +"Use of labeled for loop");
+		// Using label for outer and for loop
+		aa: 
+			for(int i=1;i<=3;i++) {
+				bb:
+					for(int j=1;j<=3;j++) {
+						if(i==2&&j==2) {
+							//break aa;  // Usually, break and continue keywords breaks/ continues the innermost for loop only.
+							break bb;  //it will break inner loop only which is the default behaviour of any loop.
+							   
+						}
+						System.out.println(i+"   "+j);
+					}
+			}
+		
 	}
 }
