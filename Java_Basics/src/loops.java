@@ -9,6 +9,7 @@ public class loops {
 	for-each loop : used to traverse array or collection in java.
 	                There is no need to increment value and use subscript notation.
 	labeled for loop : In order to name of each Java for loop, use label before the loop.
+	Infinitive for loop : if two semicolons ;; used in the for loop, it will be infinitive for loop.
 	*/
 	
 	public static void main(String[]args) {
@@ -46,6 +47,12 @@ public class loops {
 						System.out.println(i+"   "+j);
 					}
 			}
+		// #######################################################
+		
+		System.out.println("Use of Infinitive loop");
+		/* for(;;) {
+		System.out.println("infinitive loop");
+		} */
 		
 	}
 }
