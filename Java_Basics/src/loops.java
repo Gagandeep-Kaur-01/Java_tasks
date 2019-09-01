@@ -19,6 +19,14 @@ public class loops {
 		 System.out.println(x);
 		 x++;
 	}
+			int y=11;
+			System.out.println('\n' +"Use of do while statement");
+		 do {
+			 
+				System.out.println(y);
+				y++;
+					} while (y<=20);
+		 
 		int count = 5;
 		
 		System.out.println('\n' +"Use of for loop");
