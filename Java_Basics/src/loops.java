@@ -13,9 +13,15 @@ public class loops {
 	*/
 	
 	public static void main(String[]args) {
+		 int x = 1;
+		 System.out.println("While statement");
+		 while (x<=10) {
+		 System.out.println(x);
+		 x++;
+	}
 		int count = 5;
 		
-		System.out.println("Use of for loop");
+		System.out.println('\n' +"Use of for loop");
 		for(int i=1; i<=count;i++) {
 			for(int j=count; j>=i; j--) {
 				System.out.print("*");
@@ -23,7 +29,7 @@ public class loops {
 		}
 		System.out.println(); // new line	
 		}
-	// ######################################################	
+	// ######################################################################################################	
 		System.out.println('\n' +"Use of for-each loop");
 			/*for(Type var : array) {
 			 code to be executed 
@@ -32,7 +38,7 @@ public class loops {
 		for(int i:arr) {  //printing an array using for-each loop
 			System.out.println(i);
 		}
-	// ##########################################################
+	// ######################################################################################################
 		System.out.println('\n' +"Use of labeled for loop");
 		// Using label for outer and for loop
 		aa: 
@@ -47,12 +53,14 @@ public class loops {
 						System.out.println(i+"   "+j);
 					}
 			}
-		// #######################################################
+		// #################################################################################################
 		
-		System.out.println("Use of Infinitive loop");
-		/* for(;;) {
-		System.out.println("infinitive loop");
-		} */
+		System.out.println('\n' +"Use of Infinitive loop");
+		 for(;;) {
+		// System.out.println("infinitive loop");
+		}
+		// ###################################################################################################
+		 
 		
-	}
+}
 }
